@@ -36,6 +36,8 @@ As you can imagine, these operations are too heavy and network costly to be done
 * API
 * UI
 
+![Project overview](./Docs/Diagrams/project-overview.png)
+
 ## How to run
 
 In this section, I describe the steps to run this project with docker without the need of installing any dependencies and also in development mode, if you want to dig into the code.
