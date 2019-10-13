@@ -1,0 +1,36 @@
+{
+  "name": "influx-and-time-series-data-api",
+  "version": "0.0.1",
+  "description": "API that serves data from Influx",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive tests/**/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/flowck/influx-and-time-series-data.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Influxdb",
+    "time-series",
+    "data",
+    "resample",
+    "downsample",
+    "upsample",
+    "api",
+    "http"
+  ],
+  "author": "Firmino Changani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flowck/influx-and-time-series-data/issues"
+  },
+  "homepage": "https://github.com/flowck/influx-and-time-series-data#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "influx": "^5.4.2"
+  }
+}
