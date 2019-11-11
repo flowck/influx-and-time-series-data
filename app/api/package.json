@@ -1,0 +1,50 @@
+{
+  "name": "influx-and-time-series-data-api",
+  "version": "0.0.1",
+  "description": "API that serves data from Influx",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha --recursive tests/**/*.spec.js",
+    "dev": "nodemon src/index.js",
+    "p:w": "onchange 'src/**/*.js' -- prettier --write {{changed}}"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/flowck/influx-and-time-series-data.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Influxdb",
+    "time-series",
+    "data",
+    "resample",
+    "downsample",
+    "upsample",
+    "api",
+    "http"
+  ],
+  "author": "Firmino Changani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flowck/influx-and-time-series-data/issues"
+  },
+  "homepage": "https://github.com/flowck/influx-and-time-series-data#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "influx": "^5.4.2"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "eslint-config-prettier": "^3.3.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^8.0.0",
+    "eslint-plugin-prettier": "^3.0.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "onchange": "^5.2.0",
+    "prettier": "^1.18.2"
+  }
+}
