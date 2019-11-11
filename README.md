@@ -36,7 +36,7 @@ As you can imagine, these operations are too heavy and network costly to be done
 * API
 * UI
 
-![Project overview](./Docs/Diagrams/project-overview.png)
+![Project overview](docs/Diagrams/project-overview.png)
 
 ## How to run
 
