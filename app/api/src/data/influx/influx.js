@@ -1,6 +1,6 @@
 /**
  * Influx DB connection file
-*/
+ */
 
 // Dependencies
 const Influx = require("influx");
@@ -14,9 +14,7 @@ const DATABASE_NAME = "timeseriesdata";
 const influx = new Influx.InfluxDB({
   database: DATABASE_NAME,
   host: INFLUX_HOST || "localhost",
-  schema: [
-    naturalGas
-  ]
+  schema: [naturalGas]
 });
 
 // Verify for database existance and or create a new one
